@@ -1,5 +1,6 @@
 {
   "name" : "testplugin",
   "mainclass" : "Testplugin",
+  "mainfile" : "testplugin",
   "tagname" : "testplugin"
 }
