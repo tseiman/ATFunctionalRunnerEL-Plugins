@@ -1,4 +1,4 @@
 {
   "name" : "testplugin",
-  "mainclass" : "main.js"
+  "mainclass" : "Testplugin"
 }
