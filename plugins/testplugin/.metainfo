@@ -1,0 +1,4 @@
+{
+  "name" : "testplugin",
+  "mainclass" : "main.js"
+}
