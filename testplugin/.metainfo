@@ -1,4 +1,5 @@
 {
   "name" : "testplugin",
-  "mainclass" : "Testplugin"
+  "mainclass" : "Testplugin",
+  "tagname" : "testplugin"
 }
