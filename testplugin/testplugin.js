@@ -1,6 +1,8 @@
 
 const { testlib } = require('../ATplugins/testplugin/lib/testlib.js');
 
+console.log("Plugin read");
+
 class Testplugin {
 	
 	constructor(name, dom,append_to_id) {
