@@ -1,7 +1,5 @@
 
-// const { Testlib } = require('../ATplugins/testplugin/lib/testlib.js');
-import * as Testlib from "../ATplugins/testplugin/lib/testlib.js";
-
+var Testlib  = require('../ATplugins/testplugin/lib/testlib.js');
 
 console.log("Plugin Class read");
 
@@ -15,7 +13,8 @@ class Testplugin {
 		
 		this.value = dom.evaluate( './/testplugin[@name="' + name + '"]', dom, null, XPathResult.STRING_TYPE, null ).stringValue;
 
-		new Testlib(apped_to);
+		var myLib = new Testlib(apped_to);
+		myLib.someMethod(1,2);
     		
 	}
 	
