@@ -1,5 +1,7 @@
 
-const { Testlib } = require('../ATplugins/testplugin/lib/testlib.js');
+// const { Testlib } = require('../ATplugins/testplugin/lib/testlib.js');
+import * as Testlib from "../ATplugins/testplugin/lib/testlib.js";
+
 
 console.log("Plugin Class read");
 
