@@ -18,3 +18,4 @@ class Testplugin {
 	}
 	
 }
+config.addPluginClassLookup("Testplugin",Testplugin);
