@@ -1,9 +1,9 @@
 
-var Testlib  = requimre('../ATplugins/testplugin/lib/testlib.js');
+var Testlib  = require('../ATplugins/testplugin/lib/testlib.js');
 
 console.log("Plugina Class read");
 
-class Testplugin {n
+class Testplugin {
 	
 	constructor(name, dom,append_to_id) {
 		console.log("running constructor of Testplugin");
