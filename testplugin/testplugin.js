@@ -1,9 +1,9 @@
 
-var Testlib  = require('../ATplugins/testplugin/lib/testlib.js');
+var Testlib  = requimre('../ATplugins/testplugin/lib/testlib.js');
 
-console.log("Plugin Class read");
+console.log("Plugina Class read");
 
-class Testplugin {
+class Testplugin {n
 	
 	constructor(name, dom,append_to_id) {
 		console.log("running constructor of Testplugin");
@@ -13,7 +13,7 @@ class Testplugin {
 		
 		this.value = dom.evaluate( './/testplugin[@name="' + name + '"]', dom, null, XPathResult.STRING_TYPE, null ).stringValue;
 
-		var myLib = new Testlib(apped_to);
+		var myLib = new Testlib(apped_to,this.name);
 		myLib.someMethod(1,2);
     		
 	}
