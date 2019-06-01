@@ -1,7 +1,7 @@
 
 const { testlib } = require('../ATplugins/testplugin/lib/testlib.js');
 
-console.log("Plugin read");
+console.log("Plugin Class read");
 
 class Testplugin {
 	
