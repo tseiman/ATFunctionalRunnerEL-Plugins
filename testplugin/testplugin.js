@@ -1,5 +1,5 @@
 
-const { testlib } = require('../ATplugins/testplugin/lib/testlib.js');
+const { Testlib } = require('../ATplugins/testplugin/lib/testlib.js');
 
 console.log("Plugin Class read");
 
